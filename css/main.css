@@ -2,7 +2,8 @@
 body {
 	margin: 0px 0px 0px 0px;
 	font-family: 'open_sansregular', Segoe UI, sans-serif;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
+	background-color: white;
 }
 
 /*-- fonts styles --*/
