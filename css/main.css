@@ -1,0 +1,123 @@
+/*-- general styles --*/
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: 'open_sansregular', Segoe UI, sans-serif;
+	background-color: #f2f2f2;
+}
+
+/*-- fonts styles --*/
+h1{
+	font-family: 'cinzelregular', Georgia, serif;
+	font-size: 26px;
+	font-style: italic;
+	color: #6C7A89;
+	letter-spacing: 0.6em;
+}
+h2{
+	font-family: 'cinzelregular', Georgia, serif;
+	font-size: 22px;
+	font-style: italic;
+	color: #6C7A89;
+	letter-spacing: 0.2em;
+}
+h3{
+	font-family: 'cinzelregular', Georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #646464;
+	letter-spacing: 1.2em;
+}
+p {
+	font-family: 'open_sanslight', Segoe UI, sans-serif;
+	color: #6C7A89;
+	letter-spacing: 0.15em;
+}
+.label {
+	font-family: 'cinzelregular', Georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #646464;
+	letter-spacing: 0.3em;
+}
+
+/*containers*/
+.container {
+	overflow: hidden;
+	margin: 10px 30px 10px 30px;
+}
+.left {
+	float: left;
+	width: 38%;
+	text-align: center;
+	border-right: 1px solid #BDC3C7;
+	padding-right: 15px;
+}
+.right {
+	float: right;
+	width: 58%;
+
+}
+footer {
+	clear: both;
+}
+
+/*left styles*/
+.left h1 {
+	text-align: center;
+}
+.left h3{
+	text-align: center;
+}
+
+/*right styles*/
+.about {
+	font-size: 22px;
+	line-height: 1.8em;
+}
+
+/*-- nav styles --*/
+nav ul {
+	list-style: none;
+	margin-top: 25px;
+	text-align: center;
+}
+nav li {
+	display: inline;
+	font-family: 'cinzelregular', Georgia, serif;
+	font-size: 26px;
+	font-style: italic;
+	color: #646464;
+	letter-spacing: 0.2em;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+a,
+a:active,
+a:focus,
+a:active {
+	text-decoration: none !important;
+	color: #646464;
+}
+a:hover {
+	color: #6C7A89;
+	border-bottom: 3px solid #D2D7D3;
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/*-- footer styles --*/
+footer {
+	background-color: #6C7A89;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+small {
+	font-family: 'open_sanslight', Georgia, serif;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+footer a, footer a:hover{
+	color: #fff;
+}
